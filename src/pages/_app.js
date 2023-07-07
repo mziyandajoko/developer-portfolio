@@ -1,3 +1,4 @@
+import Footer from '@/components/navbar/footer/Footer';
 import Navbar from '@/components/navbar/navbar';
 import '@/styles/globals.css';
 import {Montserrat} from 'next/font/google';
@@ -19,6 +20,7 @@ export default function App({ Component, pageProps }) {
 <main className={'`${monsterrat.variable} font-mont bg-light w-full min-h-screen`'}>  
     <Navbar />
   <Component {...pageProps} />
+  <Footer />
 </main>  
 </>  
   );
