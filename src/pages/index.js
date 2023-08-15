@@ -27,8 +27,8 @@ export default function Home() {
               <div className='w-1/2 flex flex-col item-center self-center'>
                 
                   <AnimatedText Text='Turning Vision Into Reality With Code And Design.' classname='!text-6xl !text-left'/>
-                <p className='my-4 text-base font-medium'>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
+                <p className='my-4 text-base font-medium '>Hi, my name is Mziyanda Joko but you can call me Joko
+My passion for coding began during high school, since then I was sold and wanted to know more and the journey never stopped ever since. I am also a sports person and play Cricket on weekends when I am not coding something on the side</p>
                 <div className='flex item-center  self-start mt-2'>
                 <Link href='/MziyandaJokoFrontEndDeveloper.pdf' target={'_blank'}
                 className='flex items-center bg-dark text-white text-lg font-semibold px-6 p-2.5 rounded-lg
