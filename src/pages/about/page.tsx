@@ -3,7 +3,6 @@ import Layout from '@/components/layout/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
-import profilePic from '../../public/images/profile/developer-pic-2.jpg'
  
  export const About = () => {
    return (
@@ -31,7 +30,7 @@ import profilePic from '../../public/images/profile/developer-pic-2.jpg'
                     bg-light p-8
                     '>
                         <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
-                        <Image src={profilePic} alt='aboot me profile image' className='w-full h-auto rounded-2xl'/>
+                        {/* <Image src={profilePic} alt='aboot me profile image' className='w-full h-auto rounded-2xl'/> */}
                     </div>
                 </div>
 
