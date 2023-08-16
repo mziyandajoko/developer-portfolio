@@ -6,6 +6,7 @@ module.exports = {
   
     //if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.ts"
   ],
   theme: {
     extend: {
