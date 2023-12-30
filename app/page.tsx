@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import backgroundImage from '@/assets/home/background-home-desktop.jpg'
+import HireMeButton from '@/app/components/hireMeButton/page'
 export default function Home() {
   return (
    <main className='text-white  '>
@@ -16,8 +17,8 @@ export default function Home() {
       }}
       className='-z-10'
     />
-      <div className='flex min-h-screen flex-col items-center justify-between p-24 z-30'>
-        <div className='flex flex-col items-center'>
+      <div className='flex min-h-screen flex-col items-center justify-between p-24 z-30 md:flex-row'>
+        <div className='flex flex-col items-start w-full md:w-[60%]'>
 
         <h1>Mziyanda Joko</h1>
         <h2>Web Developer</h2>
@@ -27,7 +28,7 @@ export default function Home() {
         </p>
         </div>
         <div>
-          Hire Me
+         <HireMeButton/>
         </div>
 
       </div>
