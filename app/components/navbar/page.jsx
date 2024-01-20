@@ -15,14 +15,17 @@ function Navbar() {
   return (
     <div>
 
-    <header className= 'hidden text-white  w-full fixed  top-0  left-0 right-0 z-10 md:flex md:justify-end'>
-    <nav className=' m-5'>
-  
-    <CumstomLink href='/' tittle='Home' className='px-4'/>
-    <CumstomLink href='/pages/about' tittle='About' className='px-4'/>
-    <CumstomLink href='/pages/projects' tittle='Projects' className='px-4'/>
-    <CumstomLink href='/pages/contact' tittle='Contact' className='ml-4'/>
-    
+    <header className= ' text-white  bg-slate-500 w-full fixed  top-0  left-0 right-0 z-10'>
+    <nav className='flex justify-between m-5'>
+      <div className=''>
+        Logo
+      </div>
+      <div className='hidden md:flex'>
+        <CumstomLink href='/' tittle='Home' className='px-4'/>
+        <CumstomLink href='/pages/about' tittle='About' className='px-4'/>
+        <CumstomLink href='/pages/projects' tittle='Projects' className='px-4'/>
+        <CumstomLink href='/pages/contact' tittle='Contact' className='ml-4'/>
+      </div>
    </nav>
     </header>
     </div>
